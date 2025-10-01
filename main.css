@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(228, 228, 228);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 95%;
+    max-width: 35rem;
+    background-color: rgb(226, 147, 0);
+    border-radius: 1rem;
+    box-shadow: 3px 3px 20px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    margin: 1.5rem 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin: 0 0 1rem;
+}
+
+input {
+    width: 100%;
+    height: 4rem;
+    border: none;
+    outline: none;
+    background-color: rgb(211, 211, 211);
+    border-radius: 0.6rem;
+    padding: 0 0.5rem;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    font-family: 'Outfit', sans-serif;
+    margin: 0 0 1rem;
+}
+
+img {
+    width: auto;
+    height: auto;
+    margin: 0 0 1rem;
+}
+
+.result {
+    width: max-content;
+    min-width: 5rem;
+    min-height: 4rem;
+    height: max-content;
+    background-color: rgb(211, 211, 211);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.6rem;
+    box-sizing: border-box;
+    padding: 0 0.5rem;
+}
+
+p {
+    width: max-content;
+    margin: 0;
+    white-space: nowrap;
+    font-size: 1.4rem;
+}
